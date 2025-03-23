@@ -414,4 +414,26 @@
         width: 100%;
         margin: 0 auto;
     }
+
+    .information-container .main-block .text-container .decor-up {
+        position: absolute;
+        top: 14px;
+        right: 36px;
+    }
+
+    .information-container .main-block .text-container .decor-up img {
+        width: 34px;
+        height: 24px;
+    }
+
+    .information-container .main-block .text-container .decor-underline {
+        position: absolute;
+        left: 45px;
+        top: 165px;
+    }
+
+    .information-container .main-block .text-container .decor-underline img {
+        width: 100px;
+        height: 20px;
+    }
 }

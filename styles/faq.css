@@ -34,11 +34,11 @@ summary::marker {
 }
 
 summary::after {
-    content: url(/resourses/open.svg);
+    content: url(./resourses/open.svg);
 }
 
 details[open] summary::after {
-    content: url(/resourses/close.svg);
+    content: url(./resourses/close.svg);
 }
 
 .faq details[open] {
