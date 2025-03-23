@@ -1,0 +1,417 @@
+/* tablet */
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        max-width: 728px;
+        width: 100%;
+    }
+
+    .header-container .left-side nav {
+        display: none;
+    }
+
+    .header-container .login-button[hidden] {
+        display: none;
+    }
+
+    .header-container .burger-button[hidden] {
+        display: block;
+    }
+
+    .information-container .main-block .text-container {
+        position: relative;
+    }
+
+    .information-container .image-content {
+        opacity: 0.2;
+    }
+
+    .cards-wrapper {
+        flex-direction: column;
+    }
+
+    .cards-wrapper .card {
+        max-width: none;
+        width: 100%;
+    }
+
+    .burger-menu-container {
+        display: block;
+    }
+
+    .information-block .card-and-company-list {
+        gap: 97px;
+
+        .card {
+            max-width: 158px;
+            width: 100%;
+            gap: 11px;
+            padding: 15px 17px;
+
+            .card-image {
+                height: 122px;
+
+                .card-image-arrival {
+                    max-width: 122px;
+                    width: 100%;
+                    height: 122px;
+                }
+            }
+
+            .card-text {
+                max-width: 128px;
+                width: 100%;
+                gap: 9px;
+
+                .card-text-header {
+                    font-size: 20px;
+                    line-height: 25px;
+                }
+
+                .card-text-subtitle {
+                    font-size: 8.5px;
+                    font-weight: 500;
+                    line-height: 12px;
+                    letter-spacing: 0px;
+                }
+
+                .card-text-button button {
+                    max-width: 85px;
+                    font-size: 9px;
+
+                    img {
+                        max-width: 11px;
+                    }
+                }
+            }
+        }
+    }
+
+    .information-block .card-and-company-list .company-list {
+        gap: 17px;
+        max-width: 392px;
+        width: 100%;
+
+        .work-experience {
+            font-size: 13px;
+        }
+
+        .company-list-item .company {
+            gap: 4px;
+
+            .grade {
+                font-size: 10px;
+            }
+
+            .about-company {
+                .website a {
+                    font-size: 10px;
+                }
+
+                .company-name-and-year {
+                    .company-name {
+                        font-size: 13px;
+                    }
+
+                    .company-year {
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    .profile-web {
+        max-width: 473px;
+        padding: 21px 52px;
+        top: 53px;
+        left: 123px;
+
+        .hero-block {
+            display: flex;
+            gap: 57px;
+            justify-content: space-between;
+
+            .content-area {
+                max-width: 180px;
+                width: 100%;
+                gap: 21px;
+
+                .text-container {
+                    .name {
+                        font-size: 22.35px;
+                    }
+
+                    .description {
+                        font-size: 8px;
+                    }
+                }
+            }
+
+            .image-area {
+                max-width: 131px;
+                width: 100%;
+                height: 131px;
+            }
+        }
+
+        button {
+            max-width: 76px;
+            padding: 6px 5px;
+
+            img {
+                max-width: 8px;
+            }
+
+            .button-text {
+                font-size: 6px;
+            }
+        }
+    }
+
+    .tarifs-wrapper .wrapper-item {
+        max-width: 348px;
+        width: 100%;
+    }
+
+    .footer {
+        flex-wrap: wrap;
+        gap: 24px;
+
+        .social-media,
+        .column {
+            max-width: 352px;
+            width: 100%;
+        }
+    }
+
+    .form-wrapper,
+    .success-message {
+        max-width: 728px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .container {
+        max-width: 375px;
+        width: 100%;
+        padding: 0 20px 0 20px;
+    }
+
+    .information-container .form-action form {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .information-container .image-content {
+        max-width: 258px;
+        width: 100%;
+
+        .bg {
+            max-width: 222px;
+            width: 100%;
+        }
+
+        .img-phone {
+            max-width: 185px;
+            width: 100%;
+        }
+
+        .new-content {
+            max-width: 22px;
+            width: 100%;
+            top: 0;
+            right: 25px;
+        }
+    }
+
+    .information-container .main-block .text-container .title {
+        font-size: 42px;
+        letter-spacing: 0;
+        line-height: 54px;
+        margin-top: 14px;
+    }
+
+    .header-container .left-side nav {
+        display: none;
+    }
+
+    .burger-menu-container {
+        display: block;
+    }
+
+    .tarifs .tarifs-wrapper {
+        display: flex;
+        gap: 32px;
+        flex-direction: column;
+    }
+
+    .footer {
+        gap: 24px;
+    }
+
+    .information-block .card-and-company-list .company-list {
+        line-height: 6.52px;
+        gap: 8px;
+        max-width: 182px;
+        width: 100%;
+        padding: 6px;
+        border: 0.25px solid rgba(51, 51, 51, 1);
+        border-radius: 8px;
+
+        .work-experience {
+            font-size: 6px;
+            line-height: 6.52px;
+        }
+
+        .company-list-item {
+            gap: 7px;
+        }
+
+        .company-list-item .company {
+            .grade {
+                font-size: 4.5px;
+                line-height: 6.52px;
+            }
+
+            .about-company {
+
+                .website a {
+                    font-size: 4.5px;
+                    line-height: 6.52px;
+                }
+
+                .company-name-and-year {
+                    gap: 2px;
+
+                    .company-name {
+                        font-size: 6px;
+                        line-height: 7px;
+                    }
+
+                    .company-year {
+                        font-size: 4.5px;
+                        line-height: 7px;
+                    }
+                }
+            }
+        }
+    }
+
+    .information-block .card-and-company-list {
+        gap: 45px;
+
+        .card {
+            max-width: 73px;
+            width: 100%;
+            gap: 4px;
+            padding: 7px;
+            border-radius: 7px;
+
+            .card-image {
+                height: 57px;
+
+                .card-image-arrival {
+                    max-width: 57px;
+                    width: 100%;
+                    height: 57px;
+                    border-radius: 5px;
+                }
+            }
+
+            .card-text {
+                max-width: 59px;
+                width: 100%;
+                gap: 4px;
+
+                .card-text-header {
+                    font-size: 9px;
+                    line-height: 11px;
+                }
+
+                .card-text-subtitle {
+                    font-size: 4px;
+                    font-weight: 500;
+                    line-height: 5px;
+                    letter-spacing: 0px;
+                }
+
+                .card-text-button button {
+                    max-width: 39.5px;
+                    font-size: 4px;
+                    padding: 3px 4px;
+                    gap: 2px;
+                    border: 0.22px solid rgba(51, 51, 51, 1);
+
+                    img {
+                        max-width: 5px;
+                    }
+                }
+            }
+        }
+    }
+
+
+    .profile-web {
+        max-width: 220px;
+        padding: 9px 12px;
+        top: 24px;
+        left: 57px;
+
+        .hero-block {
+            display: flex;
+            gap: 57px;
+            justify-content: space-between;
+
+            .content-area {
+                max-width: 84px;
+                width: 100%;
+                gap: 10px;
+
+                .text-container {
+                    gap: 3px;
+
+                    .name {
+                        font-size: 10px;
+                    }
+
+                    .description {
+                        font-size: 4px;
+                    }
+                }
+            }
+
+            .image-area {
+                max-width: 61px;
+                width: 100%;
+                height: 61px;
+            }
+        }
+
+        button {
+            max-width: 36px;
+            padding: 2px;
+            border-radius: 3px;
+
+
+            img {
+                max-width: 3px;
+            }
+
+            .button-text {
+                font-size: 3px;
+            }
+        }
+    }
+
+    .form-wrapper,
+    .success-message {
+        max-width: 335px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}

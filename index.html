@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/commons.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/burger-menu.css">
+    <link rel="stylesheet" href="./styles/mediaQueries.css">
+    <link rel="stylesheet" href="./styles/faq.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/feedback-form.css">
+    <title>Quiclink</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="burger-overlay" id="burger-overlay"></div>
+        <header class="header-container">
+            <div class="left-side">
+                <img src="./resourses/logo.svg" alt="Quiclink logo">
+                <nav>
+                    <ul>
+                        <li><a href="">Что это?</a></li>
+                        <li><a href="">Как выглядит?</a></li>
+                        <li><a href="">Сколько стоит?</a></li>
+                        <li><a href="">FAQ</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <button class="login-button" hidden>
+                <img src="./resourses/login.svg" alt="user-icon">
+            </button>
+
+            <div class="burger-menu-container" hidden>
+                <button class="burger-button" hidden>
+                    <img src="./resourses/burgerOpen.svg" alt="burger-open">
+                </button>
+
+                <div class="burger-menu">
+                    <button class="close-button">
+                        <img src="./resourses/burgerClose.svg" alt="burger-close">
+                    </button>
+                    <ul>
+                        <li class="user-login">
+                            <a href="#">Вход</a>
+                            <button class="login-button">
+                                <img src="./resourses/login.svg" alt="user-icon">
+                            </button>
+                        </li>
+                        <li><a href="#">Что это?</a></li>
+                        <li><a href="#">Как это выглядит?</a></li>
+                        <li><a href="#">Сколько стоит?</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="container">
+        <div class="information-container">
+            <div class="main-block">
+                <div class="text-container">
+                    <div class="title">Все, что тебе нужно <br> В одной ссылке</div>
+                    <div class="description">Присоединяйся к более 50 млн. людей и делись всем, что ты создаешь,
+                        курируешь или продаешь онлайн. Все в одной ссылке.</div>
+                </div>
+                <div class="form-action">
+                    <form action="">
+                        <input type="email" placeholder="your@mail.com">
+                        <button>Создать страницу<img src="./resourses/arrow.svg" alt="arrow"></button>
+                    </form>
+                </div>
+            </div>
+            <div class="image-content">
+                <img class="bg" src="./resourses/ellipse.svg" alt="ellipse">
+                <img class="img-phone" src="./resourses/phone.svg" alt="phone">
+                <img class="new-content" src="./resourses/new.svg" alt="new">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="cards-wrapper">
+            <div class="card">
+                <div class="pic-area start">
+                    <img src="./resourses/pic1.svg" alt="pic">
+                </div>
+                <div class="content">
+                    <div class="content-title">Кастомные элементы</div>
+                    <div class="content-subtitle">Создавай и кастомизируй свой профиль за считанные минуты!</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="pic-area center">
+                    <img src="./resourses/pic2.svg" alt="pic">
+                </div>
+                <div class="content">
+                    <div class="content-title">Подробная аналитика</div>
+                    <div class="content-subtitle">Отслеживай информацию о том, кто и откуда интересовался твоим профилем
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="pic-area end">
+                    <img src="./resourses/pic3.svg" alt="pic">
+                </div>
+                <div class="content">
+                    <div class="content-title">Короткая ссылка</div>
+                    <div class="content-subtitle">Красивая персональная ссылка на профиль бесплатно!</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="information-block">
+            <div class="card-and-company-list">
+                <div class="company-list">
+                    <div class="work-experience">опыт работы</div>
+                    <div class="company-list-item">
+                        <div class="company">
+                            <div class="about-company">
+                                <div class="company-name-and-year">
+                                    <div class="company-name">Arrival</div>
+                                    <div class="company-year">(2021-по наст. время)</div>
+                                </div>
+                                <div class="website"><a href="https://arrival.com/">arrival.com</a></div>
+                            </div>
+                            <div class="grade">Senior Front-End разработчик</div>
+                        </div>
+                        <div class="company">
+                            <div class="about-company">
+                                <div class="company-name-and-year">
+                                    <div class="company-name">Apple</div>
+                                    <div class="company-year">(2018-2021)</div>
+                                </div>
+                                <div class="website"><a href="https://www.apple.com/">apple.com</a></div>
+                            </div>
+                            <div class="grade">Middle+ Front-End разработчик</div>
+                        </div>
+                        <div class="company">
+                            <div class="about-company">
+                                <div class="company-name-and-year">
+                                    <div class="company-name">IBM</div>
+                                    <div class="company-year">(2017-2018)</div>
+                                </div>
+                                <div class="website"><a href="https://www.ibm.com/about/russia/">ibm.com</a></div>
+                            </div>
+                            <div class="grade">Middle Front-End разработчик</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <div class="card-image-arrival"></div>
+                    </div>
+                    <div class="card-text">
+                        <div class="card-text-header">Arrival Dashboard</div>
+                        <div class="card-text-subtitle">В качестве лид разработчика участвовал в создании и развитии
+                            систем аналитики для британского стартапа</div>
+                        <div class="card-text-button">
+                            <button>Посмотреть <img src="./resourses/arrow.svg" alt="Arrow"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="block">
+                <div class="text">
+                    Большое количество кастомизируемых элементов поможет лучше рассказать миру о себе и привлечь
+                    новых
+                    клиентов
+                </div>
+                <div class="button-action">
+                    <button><a href="#">Попробовать бесплатно</a></button>
+                </div>
+            </div>
+            <div class="profile-web">
+                <div class="hero-block">
+                    <div class="image-area"></div>
+                    <div class="content-area">
+                        <div class="text-container">
+                            <div class="name">Майкл Найт</div>
+                            <div class="description">Помогу превратить программирование из хобби в прибыльную
+                                профессию
+                            </div>
+                        </div>
+                        <button>
+                            <div class="button-text">Написать</div>
+                            <img src="./resourses/arrow.svg" alt="Arrow">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="tarifs">
+            <h3>тарифы</h3>
+            <div class="tarifs-wrapper">
+                <div class="wrapper-item">
+                    <div class="content-card">
+                        <h3>базовый</h3>
+                        <div class="price">
+                            <h1>0₽</h1>
+                            <div class="period">/мес</div>
+                        </div>
+                        <div class="desctiption">Для тех, кто хочет попробовать сервис</div>
+                        <div class="benefits">
+                            <div class="benefit">
+                                <div class="checkpoint-icon"><img src="./resourses/checkpoint.svg" alt="point"></div>
+                                <div class="text">Нет платы за использование</div>
+                            </div>
+                            <div class="benefit">
+                                <div class="checkpoint-icon"><img src="./resourses/checkpoint.svg" alt="point"></div>
+                                <div class="text">Бесплатный домен</div>
+                            </div>
+                            <div class="benefit">
+                                <div class="checkpoint-icon"><img src="./resourses/checkpoint.svg" alt="point"></div>
+                                <div class="text">Несколько тем оформления на выбор</div>
+                            </div>
+                        </div>
+                    </div>
+                    <button>Попробовать</button>
+                </div>
+                <div class="wrapper-item">
+                    <div class="content-card">
+                        <h3>премиум</h3>
+                        <div class="price">
+                            <h1>250₽</h1>
+                            <div class="period">/мес</div>
+                        </div>
+                        <div class="desctiption">Для продвинутых пользователей</div>
+                        <div class="benefits">
+                            <div class="benefit">
+                                <div class="checkpoint-icon"><img src="./resourses/checkpoint.svg" alt="point"></div>
+                                <div class="text">Более 100 кастомных элементов</div>
+                            </div>
+                            <div class="benefit">
+                                <div class="checkpoint-icon"><img src="./resourses/checkpoint.svg" alt="point"></div>
+                                <div class="text">Доступ к аналитике</div>
+                            </div>
+                            <div class="benefit">
+                                <div class="checkpoint-icon"><img src="./resourses/checkpoint.svg" alt="point"></div>
+                                <div class="text">Скидки на продвижение</div>
+                            </div>
+                            <div class="benefit">
+                                <div class="checkpoint-icon"><img src="./resourses/checkpoint.svg" alt="point"></div>
+                                <div class="text">Бесплатное хранилище фото</div>
+                            </div>
+                        </div>
+                    </div>
+                    <button>Получить премиум</button>
+                    <div class="best-choice-tag">Лучший выбор</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="faq">
+            <h3>FAQ</h3>
+            <div class="faq-list">
+                <details class="details" open>
+                    <summary class="details-title">Зачем мне нужен Quicklink?</summary>
+                    <div class="details-content">
+                        <p>Это единая ссылка, которую вы можете использовать, чтобы связать вашу аудиторию со всем, что
+                            вы делаете, и со всем, что вам небезразлично. Это позволяет делиться множеством ссылок в
+                            одной, чтобы ваши подписчики, посетители и клиенты могли найти все, что они ищут, в одном
+                            месте.
+                            <br><br>
+                            Вы можете добавить ссылку на Quicklink на платформах социальных сетей, таких как Tiktok и
+                            Instagram, включить в подписи к электронной почте и даже отобразить в виде QR-кода, чтобы
+                            ваша офлайн-аудитория связалась с вами онлайн.
+                        </p>
+                    </div>
+                </details>
+                <details class="details">
+                    <summary class="details-title">Как я могу использовать свой профиль?</summary>
+                </details>
+                <details class="details">
+                    <summary class="details-title">Как много ссылок на профиль я могу создать?</summary>
+                </details>
+                <details class="details">
+                    <summary class="details-title">Что дает премиум подписка?</summary>
+                </details>
+                <details class="details">
+                    <summary class="details-title">Какие ограничения есть на базовом тарифе?</summary>
+                </details>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <footer class="footer">
+            <div class="social-media">
+                <div class="logo">
+                    <img src="./resourses/chain.svg" alt="chain">
+                    <p>QUICKLINK</p>
+                </div>
+                <div class="links-list">
+                    <img src="./resourses/facebook.svg" alt="Facebook">
+                    <img src="./resourses/twitter.svg" alt="Twitter">
+                    <img src="./resourses/instagram.svg" alt="Instagram">
+                    <img src="./resourses/youtube.svg" alt="YouTube">
+                </div>
+            </div>
+            <div class="column">
+                <a href="#">Что это?</a>
+                <a href="#">Как это работает?</a>
+                <a href="#">Сколько стоит?</a>
+                <a href="#">FAQ</a>
+            </div>
+            <div class="column">
+                <a href="#">Перс. данные</a>
+                <a href="#">Безопасность</a>
+                <a href="#">Документы</a>
+                <a href="#">Политика отмены</a>
+            </div>
+            <div class="column">
+                <a href="#">Поддержка</a>
+                <a href="#">Компания</a>
+                <a href="#">Вакансии</a>
+                <a href="#">Партнерам</a>
+            </div>
+        </footer>
+    </div>
+    <div class="container feedback">
+        <button class="open-feedback-form" type="button">
+            <img src="./resourses/icon-feedback-form.svg" alt="icon">
+        </button>
+        <div class="overlay" id="feedback-overlay"></div>
+        <div class="pop-up-form" id="feedback-form">
+            <div class="form-wrapper">
+                <img src="./resourses/smile.svg" alt="smile">
+                <div class="form-container">
+                    <h3>Обратная связь</h3>
+                    <p>Напиши свое сообщение, и мы постараемся дать ответ в самое ближайшее время</p>
+                    <form class="holder">
+                        <input type="text" id="name" name="name" placeholder="Ваше имя">
+
+                        <select name="topic" id="topic">
+                            <option disabled selected>Тема обращения...</option>
+                            <option value="suggestion">Предложение</option>
+                            <option value="problem">Проблема</option>
+                            <option value="payment">Оплата</option>
+                            <option value="other">Другое</option>
+                        </select>
+
+                        <textarea name="message" id="message" placeholder="Текст сообщения..."></textarea>
+
+                        <button class="send-btn" type="submit">
+                            Отправить
+                            <svg class="accept-icon" width="24" height="25" viewBox="0 0 24 25"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M18.71 7.71C18.617 7.61627 18.5064 7.54188 18.3846 7.49111C18.2627 7.44034 18.132 7.4142 18 7.4142C17.868 7.4142 17.7373 7.44034 17.6154 7.49111C17.4936 7.54188 17.383 7.61627 17.29 7.71L9.84001 15.17L6.71001 12.03C6.61349 11.9368 6.49955 11.8634 6.37469 11.8142C6.24984 11.765 6.11651 11.7409 5.98233 11.7432C5.84815 11.7456 5.71574 11.7743 5.59266 11.8278C5.46959 11.8813 5.35825 11.9585 5.26501 12.055C5.17177 12.1515 5.09846 12.2655 5.04925 12.3903C5.00005 12.5152 4.97592 12.6485 4.97824 12.7827C4.98056 12.9169 5.00929 13.0493 5.06278 13.1723C5.11628 13.2954 5.19349 13.4068 5.29001 13.5L9.13001 17.34C9.22297 17.4337 9.33357 17.5081 9.45543 17.5589C9.57729 17.6097 9.708 17.6358 9.84001 17.6358C9.97202 17.6358 10.1027 17.6097 10.2246 17.5589C10.3464 17.5081 10.457 17.4337 10.55 17.34L18.71 9.18C18.8115 9.08636 18.8925 8.97271 18.9479 8.84621C19.0033 8.71971 19.0319 8.5831 19.0319 8.445C19.0319 8.3069 19.0033 8.17029 18.9479 8.04379C18.8925 7.91729 18.8115 7.80364 18.71 7.71Z" />
+                            </svg>
+                        </button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <div class="success-message" id="success-message">
+            <div class="success-wrapper">
+                <img src="./resourses/smile.svg" alt="smile">
+                <h3>Сообщение отправлено!</h3>
+                <p>Мы уже начали готовить ответ.</p>
+                <button class="return-home-btn">
+                    Вернуться на главную
+                    <svg class="accept-icon" width="24" height="25" viewBox="0 0 24 25"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M18.71 7.71C18.617 7.61627 18.5064 7.54188 18.3846 7.49111C18.2627 7.44034 18.132 7.4142 18 7.4142C17.868 7.4142 17.7373 7.44034 17.6154 7.49111C17.4936 7.54188 17.383 7.61627 17.29 7.71L9.84001 15.17L6.71001 12.03C6.61349 11.9368 6.49955 11.8634 6.37469 11.8142C6.24984 11.765 6.11651 11.7409 5.98233 11.7432C5.84815 11.7456 5.71574 11.7743 5.59266 11.8278C5.46959 11.8813 5.35825 11.9585 5.26501 12.055C5.17177 12.1515 5.09846 12.2655 5.04925 12.3903C5.00005 12.5152 4.97592 12.6485 4.97824 12.7827C4.98056 12.9169 5.00929 13.0493 5.06278 13.1723C5.11628 13.2954 5.19349 13.4068 5.29001 13.5L9.13001 17.34C9.22297 17.4337 9.33357 17.5081 9.45543 17.5589C9.57729 17.6097 9.708 17.6358 9.84001 17.6358C9.97202 17.6358 10.1027 17.6097 10.2246 17.5589C10.3464 17.5081 10.457 17.4337 10.55 17.34L18.71 9.18C18.8115 9.08636 18.8925 8.97271 18.9479 8.84621C19.0033 8.71971 19.0319 8.5831 19.0319 8.445C19.0319 8.3069 19.0033 8.17029 18.9479 8.04379C18.8925 7.91729 18.8115 7.80364 18.71 7.71Z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script>
+        const openFeedbackFormButton = document.querySelector('.open-feedback-form');
+        const feedbackForm = document.getElementById('feedback-form');
+        const feedbackOverlay = document.getElementById('feedback-overlay');
+        const successMessage = document.getElementById('success-message'); // ОС 
+        const returnHomeButton = document.querySelector('.return-home-btn'); // вернуться на главную
+        const feedbackFormElement = document.querySelector('.holder')
+
+        function submitForm() {
+            return new Promise(resolve => {
+                setTimeout(() => {
+                    resolve();
+                }, 1000); // делей 1 сек
+            });
+        }
+
+        openFeedbackFormButton.addEventListener('click', () => {
+            feedbackForm.classList.toggle('active');
+            feedbackOverlay.classList.toggle('active');
+        });
+
+        feedbackOverlay.addEventListener('click', () => {
+            closeForm();
+        });
+
+        function closeForm() {
+            feedbackForm.classList.remove('active');
+            feedbackOverlay.classList.remove('active');
+            successMessage.classList.remove('active')
+        }
+
+        feedbackFormElement.addEventListener('submit', (event) => {
+            event.preventDefault();
+
+            submitForm()
+                .then(() => {
+                    feedbackForm.classList.remove('active'); // скрытие формы
+                    successMessage.classList.add('active'); // окно подтверждения
+
+                    feedbackFormElement.reset();
+                })
+        });
+
+        returnHomeButton.addEventListener('click', () => {
+            window.location.href = "/";
+        });
+    </script>
+    <script>
+        const burgerButton = document.querySelector('.burger-button');
+        const burgerMenu = document.querySelector('.burger-menu');
+        const closeButton = document.querySelector('.burger-menu .close-button');
+        const overlay = document.getElementById('burger-overlay'); // оверлей
+
+        burgerButton.addEventListener('click', () => {
+            burgerMenu.classList.toggle('active');
+            overlay.classList.toggle('active');
+        });
+
+        closeButton.addEventListener('click', () => {
+            burgerMenu.classList.remove('active');
+            overlay.classList.remove('active');
+        });
+    </script>
+</body>
+
+</html>
