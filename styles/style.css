@@ -311,7 +311,7 @@
     width: 100%;
     height: 170px;
     border-radius: 15px;
-    background-image: url(./resourses/arrival.png);
+    background-image: url(../resourses/arrival.png);
     background-size: cover;
 }
 
@@ -423,7 +423,7 @@
     width: 100%;
     height: 182px;
     border-radius: 50%;
-    background-image: url(./resourses/userPhoto.png);
+    background-image: url(../resourses/userPhoto.png);
     background-size: cover;
     background-position-x: center;
 }
